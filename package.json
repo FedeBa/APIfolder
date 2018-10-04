@@ -1,0 +1,25 @@
+{
+  "name": "apifolder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FedeBa/APIfolder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FedeBa/APIfolder/issues"
+  },
+  "homepage": "https://github.com/FedeBa/APIfolder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "node-fetch": "^2.2.0"
+  }
+}
